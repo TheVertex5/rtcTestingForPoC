@@ -20,6 +20,8 @@ from google.appengine.api import app_identity
 from google.appengine.api import memcache
 from google.appengine.api import urlfetch
 
+import brezv
+
 import analytics
 import analytics_page
 import compute_page
