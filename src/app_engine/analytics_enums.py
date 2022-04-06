@@ -63,6 +63,9 @@ class BigquerySchemaClass(object):
     for field in schema_dict:
       setattr(self, field['name'].upper(), field['name'])
 
+import logging
+logging.info("TEST")
+print("TEST")
 LogField = BigquerySchemaClass(
     json.load(open(os.path.join(os.path.dirname(__file__),
                                 'bigquery',
