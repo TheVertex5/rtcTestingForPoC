@@ -77,6 +77,7 @@ CMD /go/start.sh
 # - Run: 'sudo docker run -p 443:443 -p 8089:8089 --rm -ti 503621f4f7bd'
 #   The container will now run in interactive mode and output logging. If you do not want this, omit the '-ti' argument.
 #   The '-p' options are port mappings to the GAE app and Collider instances, the host ones can be changed.
+#   Test Comment
 #
 # - On the same machine that this docker image is running on you can now join apprtc calls using 
 #   https://localhost/?wshpp=localhost:8089&wstls=true,  once you join the URL will have 
