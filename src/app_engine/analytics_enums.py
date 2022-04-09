@@ -64,7 +64,10 @@ class BigquerySchemaClass(object):
       setattr(self, field['name'].upper(), field['name'])
 
 import logging
-logging.info(' '.join(os.listdir(os.path.dirname(__file__))))
+print('\n')
+logging.info(' '.join(os.listdir(os.path.join(os.path.dirname(__file__),
+                                'bigquery'))))
+print('\n')
 LogField = BigquerySchemaClass(
     json.load(open(os.path.join(os.path.dirname(__file__),
                                 'bigquery',
