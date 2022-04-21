@@ -1,0 +1,220 @@
+vscode ➜ /com.docker.devenvironments.code (main) $ sudo docker run -p 443:443 -p 8089:8089 --rm -ti 5108ba056fa0
+2022/04/21 19:47:47 Starting collider: tls = true, port = 8089, room-server=http://localhost
+stunnel: LOG5[ui]: stunnel 5.60 on x86_64-pc-linux-musl platform
+2022.04.21 19:47:47 LOG5[ui]: stunnel 5.60 on x86_64-pc-linux-musl platform
+stunnel: LOG5[ui]: Compiled/running with OpenSSL 1.1.1n  15 Mar 2022
+2022.04.21 19:47:47 LOG5[ui]: Compiled/running with OpenSSL 1.1.1n  15 Mar 2022
+stunnel: LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+2022.04.21 19:47:47 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6 TLS:ENGINE,OCSP,PSK,SNI
+stunnel: LOG5[ui]: Reading configuration from file /usr/etc/stunnel/stunnel.conf
+2022.04.21 19:47:47 LOG5[ui]: Reading configuration from file /usr/etc/stunnel/stunnel.conf
+stunnel: LOG5[ui]: UTF-8 byte order mark not detected
+2022.04.21 19:47:47 LOG5[ui]: UTF-8 byte order mark not detected
+stunnel: LOG5[ui]: FIPS mode disabled
+2022.04.21 19:47:47 LOG5[ui]: FIPS mode disabled
+stunnel: LOG5[ui]: Configuration successful
+2022.04.21 19:47:47 LOG5[ui]: Configuration successful
+INFO     2022-04-21 19:47:48,795 devappserver2.py:316] Skipping SDK update check.
+WARNING  2022-04-21 19:47:48,906 simple_search_stub.py:1196] Could not read search indexes from /tmp/appengine.None.root/search_indexes
+INFO     2022-04-21 19:47:48,908 <string>:383] Starting API server at: http://localhost:35427
+INFO     2022-04-21 19:47:48,921 dispatcher.py:281] Starting module "default" running at: http://0.0.0.0:8080
+INFO     2022-04-21 19:47:48,921 admin_server.py:150] Starting admin server at: http://localhost:8000
+INFO     2022-04-21 19:47:50,936 instance.py:294] Instance PID: 26
+stunnel: LOG5[0]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43002
+2022.04.21 19:47:54 LOG5[0]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43002
+stunnel: LOG5[1]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43006
+2022.04.21 19:47:54 LOG5[1]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43006
+stunnel: LOG3[0]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+2022.04.21 19:47:54 LOG3[0]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+stunnel: LOG5[0]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.04.21 19:47:54 LOG5[0]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+stunnel: LOG3[1]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+2022.04.21 19:47:54 LOG3[1]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+stunnel: LOG5[1]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.04.21 19:47:54 LOG5[1]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+stunnel: LOG5[2]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43010
+2022.04.21 19:47:54 LOG5[2]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43010
+stunnel: LOG5[2]: s_connect: connected 0.0.0.0:8080
+2022.04.21 19:47:54 LOG5[2]: s_connect: connected 0.0.0.0:8080
+stunnel: LOG5[2]: Service [AppRTC GAE] connected remote server from 127.0.0.1:39940
+2022.04.21 19:47:54 LOG5[2]: Service [AppRTC GAE] connected remote server from 127.0.0.1:39940
+
+
+INFO     2022-04-21 19:47:54,532 analytics_enums.py:69] analytics_schema.json README.md enums.json
+
+
+INFO     2022-04-21 19:47:54,625 apprtc.py:95] Applying media constraints: {'audio': True, 'video': {'mandatory': {}, 'optional': [{'minWidth': '1280'}, {'minHeight': '720'}]}}
+INFO     2022-04-21 19:47:54,641 module.py:883] default: "GET /?wshpp=localhost:8089&wstls=true HTTP/1.1" 200 9073
+stunnel: LOG5[3]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43020
+2022.04.21 19:47:54 LOG5[3]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43020
+stunnel: LOG5[4]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43024
+2022.04.21 19:47:54 LOG5[4]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43024
+stunnel: LOG5[5]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43028
+2022.04.21 19:47:54 LOG5[5]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43028
+stunnel: LOG5[6]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43032
+2022.04.21 19:47:54 LOG5[6]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43032
+stunnel: LOG3[3]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+2022.04.21 19:47:54 LOG3[3]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknownstunnel: LOG5[7]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43036
+
+2022.04.21 19:47:54 LOG5[7]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43036
+stunnel: LOG5[3]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.04.21 19:47:54 LOG5[3]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+INFO     2022-04-21 19:47:54,689 module.py:883] default: "GET /css/main.css HTTP/1.1" 200 6551
+stunnel: LOG3[4]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+2022.04.21 19:47:54 LOG3[4]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+stunnel: LOG5[4]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.04.21 19:47:54 LOG5[4]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+stunnel: LOG5[8]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43040
+2022.04.21 19:47:54 LOG5[8]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43040
+stunnel: LOG5[9]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43044
+2022.04.21 19:47:54 LOG5[9]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43044
+stunnel: LOG3[7]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+2022.04.21 19:47:54 LOG3[7]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+stunnel: LOG5[7]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.04.21 19:47:54 LOG5[7]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+stunnel: LOG3[5]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+2022.04.21 19:47:54 LOG3[5]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknownstunnel: LOG5[10]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43048
+
+2022.04.21 19:47:54 LOG5[10]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43048
+stunnel: LOG5[5]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.04.21 19:47:54 LOG5[5]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+stunnel: LOG3[8]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+2022.04.21 19:47:54 LOG3[8]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+stunnel: LOG3[6]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+2022.04.21 19:47:54 LOG3[6]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+stunnel: LOG5[8]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.04.21 19:47:54 LOG5[8]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+stunnel: LOG5[6]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.04.21 19:47:54 LOG5[6]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+stunnel: LOG5[11]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43052
+2022.04.21 19:47:54 LOG5[11]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43052
+stunnel: LOG3[9]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+2022.04.21 19:47:54 LOG3[9]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+stunnel: LOG5[9]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.04.21 19:47:54 LOG5[9]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+stunnel: LOG5[12]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43056
+2022.04.21 19:47:54 LOG5[12]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43056
+stunnel: LOG3[10]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+2022.04.21 19:47:54 LOG3[10]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+stunnel: LOG5[10]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.04.21 19:47:54 LOG5[10]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+stunnel: LOG5[13]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43060
+2022.04.21 19:47:54 LOG5[13]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43060
+stunnel: LOG5[14]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43064
+2022.04.21 19:47:54 LOG5[14]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43064
+INFO     2022-04-21 19:47:54,709 module.py:883] default: "GET /js/sdputils.js HTTP/1.1" 200 15274
+stunnel: LOG3[11]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+2022.04.21 19:47:54 LOG3[11]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+stunnel: LOG5[11]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.04.21 19:47:54 LOG5[11]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+stunnel: LOG3[12]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+2022.04.21 19:47:54 LOG3[12]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+stunnel: LOG5[12]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.04.21 19:47:54 LOG5[12]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+stunnel: LOG3[13]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+2022.04.21 19:47:54 LOG3[13]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+stunnel: LOG5[13]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.04.21 19:47:54 LOG5[13]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+stunnel: LOG3[14]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+2022.04.21 19:47:54 LOG3[14]: SSL_accept: ssl/record/rec_layer_s3.c:1543: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+stunnel: LOG5[14]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.04.21 19:47:54 LOG5[14]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+stunnel: LOG5[15]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43068
+2022.04.21 19:47:54 LOG5[15]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43068
+stunnel: LOG5[16]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43072
+2022.04.21 19:47:54 LOG5[16]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43072
+stunnel: LOG5[17]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43076
+2022.04.21 19:47:54 LOG5[17]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43076
+stunnel: LOG5[18]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43080
+2022.04.21 19:47:54 LOG5[18]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43080
+stunnel: LOG5[19]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43084
+2022.04.21 19:47:54 LOG5[19]: Service [AppRTC GAE] accepted connection from 172.17.0.1:43084
+stunnel: LOG5[15]: s_connect: connected 0.0.0.0:8080
+2022.04.21 19:47:54 LOG5[15]: s_connect: connected 0.0.0.0:8080
+stunnel: LOG5[15]: Service [AppRTC GAE] connected remote server from 127.0.0.1:40014
+2022.04.21 19:47:54 LOG5[15]: Service [AppRTC GAE] connected remote server from 127.0.0.1:40014
+stunnel: LOG5[16]: s_connect: connected 0.0.0.0:8080
+2022.04.21 19:47:54 LOG5[16]: s_connect: connected 0.0.0.0:8080
+stunnel: LOG5[16]: Service [AppRTC GAE] connected remote server from 127.0.0.1:40016
+2022.04.21 19:47:54 LOG5[16]: Service [AppRTC GAE] connected remote server from 127.0.0.1:40016
+stunnel: LOG5[18]: s_connect: connected 0.0.0.0:8080
+2022.04.21 19:47:54 LOG5[18]: s_connect: connected 0.0.0.0:8080
+stunnel: LOG5[18]: Service [AppRTC GAE] connected remote server from 127.0.0.1:40018
+2022.04.21 19:47:54 LOG5[18]: Service [AppRTC GAE] connected remote server from 127.0.0.1:40018
+stunnel: LOG5[17]: s_connect: connected 0.0.0.0:8080
+2022.04.21 19:47:54 LOG5[17]: s_connect: connected 0.0.0.0:8080
+stunnel: LOG5[17]: Service [AppRTC GAE] connected remote server from 127.0.0.1:40020
+2022.04.21 19:47:54 LOG5[17]: Service [AppRTC GAE] connected remote server from 127.0.0.1:40020
+stunnel: LOG5[19]: s_connect: connected 0.0.0.0:8080
+2022.04.21 19:47:54 LOG5[19]: s_connect: connected 0.0.0.0:8080
+stunnel: LOG5[19]: Service [AppRTC GAE] connected remote server from 127.0.0.1:40022
+2022.04.21 19:47:54 LOG5[19]: Service [AppRTC GAE] connected remote server from 127.0.0.1:40022
+INFO     2022-04-21 19:47:54,733 module.py:883] default: "GET /js/signalingchannel.js HTTP/1.1" 200 4375
+INFO     2022-04-21 19:47:54,791 module.py:883] default: "GET /js/infobox.js HTTP/1.1" 200 14348
+INFO     2022-04-21 19:47:54,806 module.py:883] default: "GET /js/call.js HTTP/1.1" 200 17197
+INFO     2022-04-21 19:47:54,810 module.py:883] default: "GET /js/appcontroller.js HTTP/1.1" 200 19144
+INFO     2022-04-21 19:47:54,812 module.py:883] default: "GET /js/analytics.js HTTP/1.1" 200 2246
+INFO     2022-04-21 19:47:54,846 module.py:883] default: "GET /js/util.js HTTP/1.1" 200 6500
+INFO     2022-04-21 19:47:54,851 module.py:883] default: "GET /js/peerconnectionclient.js HTTP/1.1" 200 12962
+INFO     2022-04-21 19:47:54,855 module.py:883] default: "GET /js/constants.js HTTP/1.1" 200 1428
+INFO     2022-04-21 19:47:54,857 module.py:883] default: "GET /js/stats.js HTTP/1.1" 200 14032
+INFO     2022-04-21 19:47:54,880 module.py:883] default: "GET /js/roomselection.js HTTP/1.1" 200 6764
+INFO     2022-04-21 19:47:54,883 module.py:883] default: "GET /js/adapter.js HTTP/1.1" 200 128269
+INFO     2022-04-21 19:47:54,884 module.py:883] default: "GET /js/storage.js HTTP/1.1" 200 908
+INFO     2022-04-21 19:47:56,644 instance.py:294] Instance PID: 59
+2022/04/21 19:47:58 http: TLS handshake error from 172.17.0.1:34698: remote error: tls: unknown certificate
+
+
+INFO     2022-04-21 19:47:59,016 analytics_enums.py:69] analytics_schema.json README.md enums.json
+
+
+INFO     2022-04-21 19:47:59,074 apprtc.py:399] Added client 34422182 in room 500606869, retries = 0
+INFO     2022-04-21 19:47:59,074 apprtc.py:95] Applying media constraints: {'video': {'optional': [{'minWidth': '1280'}, {'minHeight': '720'}], 'mandatory': {}}, 'audio': True}
+INFO     2022-04-21 19:47:59,075 apprtc.py:542] User 34422182 joined room 500606869
+INFO     2022-04-21 19:47:59,075 apprtc.py:543] Room 500606869 has state ['34422182']
+INFO     2022-04-21 19:47:59,081 module.py:883] default: "POST /join/500606869?wshpp=localhost:8089&wstls=true HTTP/1.1" 200 906
+2022/04/21 19:47:59 Created room 500606869
+2022/04/21 19:47:59 Added client 34422182 to room 500606869
+2022/04/21 19:47:59 Client 34422182 registered in room 500606869
+INFO     2022-04-21 19:48:00,756 apprtc.py:467] Saved message for client 34422182:{True, 1} in room 500606869, retries=0
+INFO     2022-04-21 19:48:00,766 apprtc.py:467] Saved message for client 34422182:{True, 2} in room 500606869, retries=0
+INFO     2022-04-21 19:48:00,774 module.py:883] default: "POST /message/500606869/34422182?wshpp=localhost:8089&wstls=true HTTP/1.1" 200 21
+INFO     2022-04-21 19:48:00,777 apprtc.py:467] Saved message for client 34422182:{True, 3} in room 500606869, retries=1
+INFO     2022-04-21 19:48:00,784 module.py:883] default: "POST /message/500606869/34422182?wshpp=localhost:8089&wstls=true HTTP/1.1" 200 21
+INFO     2022-04-21 19:48:00,786 module.py:883] default: "POST /message/500606869/34422182?wshpp=localhost:8089&wstls=true HTTP/1.1" 200 21
+INFO     2022-04-21 19:48:04,110 apprtc.py:95] Applying media constraints: {'video': {'optional': [{'minWidth': '1280'}, {'minHeight': '720'}], 'mandatory': {}}, 'audio': True}
+INFO     2022-04-21 19:48:04,129 module.py:883] default: "GET /r/500606869?wshpp=localhost:8089&wstls=true HTTP/1.1" 200 9365
+INFO     2022-04-21 19:48:04,217 module.py:883] default: "GET /css/main.css HTTP/1.1" 200 6551
+INFO     2022-04-21 19:48:04,224 module.py:883] default: "GET /js/appcontroller.js HTTP/1.1" 200 19144
+INFO     2022-04-21 19:48:04,229 module.py:883] default: "GET /js/util.js HTTP/1.1" 200 6500
+INFO     2022-04-21 19:48:04,250 module.py:883] default: "GET /js/sdputils.js HTTP/1.1" 200 15274
+INFO     2022-04-21 19:48:04,252 module.py:883] default: "GET /js/adapter.js HTTP/1.1" 200 128269
+INFO     2022-04-21 19:48:04,265 module.py:883] default: "GET /js/analytics.js HTTP/1.1" 200 2246
+INFO     2022-04-21 19:48:04,314 module.py:883] default: "GET /js/call.js HTTP/1.1" 200 17197
+INFO     2022-04-21 19:48:04,320 module.py:883] default: "GET /js/constants.js HTTP/1.1" 200 1428
+INFO     2022-04-21 19:48:04,323 module.py:883] default: "GET /js/peerconnectionclient.js HTTP/1.1" 200 12962
+INFO     2022-04-21 19:48:04,329 module.py:883] default: "GET /js/infobox.js HTTP/1.1" 200 14348
+INFO     2022-04-21 19:48:04,331 module.py:883] default: "GET /js/roomselection.js HTTP/1.1" 200 6764
+INFO     2022-04-21 19:48:04,340 module.py:883] default: "GET /js/signalingchannel.js HTTP/1.1" 200 4375
+INFO     2022-04-21 19:48:04,358 module.py:883] default: "GET /js/stats.js HTTP/1.1" 200 14032
+INFO     2022-04-21 19:48:04,359 module.py:883] default: "GET /js/storage.js HTTP/1.1" 200 908
+2022/04/21 19:48:06 http: TLS handshake error from 172.17.0.1:34752: remote error: tls: unknown certificate
+INFO     2022-04-21 19:48:06,430 apprtc.py:399] Added client 89959027 in room 500606869, retries = 0
+WARNING  2022-04-21 19:48:06,431 analytics.py:38] Unable to build BigQuery API object. Logging disabled.
+INFO     2022-04-21 19:48:06,431 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '500606869', u'timestamp': '2022-04-21T19:48:06.431190', u'host': 'localhost'}}]}
+INFO     2022-04-21 19:48:06,431 apprtc.py:95] Applying media constraints: {'video': {'optional': [{'minWidth': '1280'}, {'minHeight': '720'}], 'mandatory': {}}, 'audio': True}
+INFO     2022-04-21 19:48:06,432 apprtc.py:542] User 89959027 joined room 500606869
+INFO     2022-04-21 19:48:06,432 apprtc.py:543] Room 500606869 has state ['89959027', '34422182']
+INFO     2022-04-21 19:48:06,437 module.py:883] default: "POST /join/500606869?wshpp=localhost:8089&wstls=true HTTP/1.1" 200 8071
+2022/04/21 19:48:06 Added client 89959027 to room 500606869
+2022/04/21 19:48:06 Client 89959027 registered in room 500606869
+2022/04/21 19:48:06 Sent queued messages from 34422182 to 89959027
+2022/04/21 19:48:14 Deregistered client 89959027 from room 500606869
+INFO     2022-04-21 19:48:14,324 apprtc.py:485] Forwarding message to collider for room 500606869 client 34422182
+INFO     2022-04-21 19:48:14,328 apprtc.py:485] Forwarding message to collider for room 500606869 client 34422182
+INFO     2022-04-21 19:48:14,332 apprtc.py:485] Forwarding message to collider for room 500606869 client 34422182
+INFO     2022-04-21 19:48:14,362 module.py:883] default: "POST /message/500606869/34422182?wshpp=localhost:8089&wstls=true HTTP/1.1" 200 21
+INFO     2022-04-21 19:48:14,365 module.py:883] default: "POST /message/500606869/34422182?wshpp=localhost:8089&wstls=true HTTP/1.1" 200 21
+INFO     2022-04-21 19:48:14,366 module.py:883] default: "POST /message/500606869/34422182?wshpp=localhost:8089&wstls=true HTTP/1.1" 200 21
+2022/04/21 19:48:15 Deregistered client 34422182 from room 500606869
+^CINFO     2022-04-21 19:48:20,905 shutdown.py:50] Shutting down.
