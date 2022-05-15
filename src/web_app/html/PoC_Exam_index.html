@@ -139,6 +139,15 @@
     }
     window.onload = setHeights;
     window.onresize = setHeights;
+
+    function newRemote() {
+      var i = document.getElementById(participant-list).children.length + 1;
+      var el = document.createElement(video);
+          el.setAttribute("id", "mini-participant-"+i);
+          el.setAttribute("autoplay", true);
+          el.setAttribute("playsinline", true);
+          el.setAttribute("width", "100%");
+    }
   </script>
 
 </body>

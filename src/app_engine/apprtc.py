@@ -541,6 +541,7 @@ class JoinPage(webapp2.RequestHandler):
         room_id, client_id, result['messages'], result['is_initiator'])
     logging.info('User ' + client_id + ' joined room ' + room_id)
     logging.info('Room ' + room_id + ' has state ' + result['room_state'])
+    logging.info('Room joined')
 
 class MainPage(webapp2.RequestHandler):
   def write_response(self, target_page, params={}):
