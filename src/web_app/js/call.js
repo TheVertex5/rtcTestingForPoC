@@ -234,6 +234,7 @@ Call.prototype.toggleAudioMute = function() {
 // WebSocket connection is opened using |wss_url| followed by a subsequent
 // registration once GAE registration completes.
 Call.prototype.connectToRoom_ = function(roomId) {
+  trace("Connect to room start");
   this.params_.roomId = roomId;
   // Asynchronously open a WebSocket connection to WSS.
   // TODO(jiayl): We don't need to wait for the signaling channel to open before
@@ -263,6 +264,7 @@ Call.prototype.connectToRoom_ = function(roomId) {
 
   // We only register with WSS if the web socket connection is open and if we're
   // already registered with GAE.
+  trace("Doing promise all");
   Promise.all([channelPromise, joinPromise]).then(function() {
     this.channel_.register(this.params_.roomId, this.params_.clientId);
 
