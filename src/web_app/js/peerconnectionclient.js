@@ -257,6 +257,7 @@ PeerConnectionClient.prototype.onSetRemoteDescriptionSuccess_ = function() {
 };
 
 PeerConnectionClient.prototype.processSignalingMessage_ = function(message) {
+  trace("#P; message_type: "+message.type+" in: "+message);
   if (message.type === 'offer' && !this.isInitiator_) {
     if (this.pc_.signalingState !== 'stable') {
       trace('ERROR: remote offer received in unexpected state: ' +
