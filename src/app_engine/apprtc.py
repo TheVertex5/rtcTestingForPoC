@@ -177,17 +177,21 @@ def get_room_parameters(request, room_id, client_id, is_initiator):
 
   # HTML or JSON.
   response_type = request.get('t')
+  logging("    ICE check: "+response_type)
   # Which ICE candidates to allow. This is useful for forcing a call to run
   # over TURN, by setting it=relay.
   ice_transports = request.get('it')
+  logging("    ICE check: "+ice_transports)
   # Which ICE server transport= to allow (i.e., only TURN URLs with
   # transport=<tt> will be used). This is useful for forcing a session to use
   # TURN/TCP, by setting it=relay&tt=tcp.
   ice_server_transports = request.get('tt')
+  logging("    ICE check: "+ice_server_transports)
   # A HTTP server that will be used to find the right ICE servers to use, as
   # described in http://tools.ietf.org/html/draft-uberti-rtcweb-turn-rest-00.
   ice_server_base_url = request.get('ts', default_value =
       constants.ICE_SERVER_BASE_URL)
+  logging("    ICE check: "+ice_server_base_url)
 
   # Use "audio" and "video" to set the media stream constraints. Defined here:
   # http://goo.gl/V7cZg
